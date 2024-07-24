@@ -11,7 +11,7 @@ function mincost(arr)
 			arr.shift();
 			
 		}
-	console.log(sum)
+	return sum
 	
 	//[2,3,4,6]
 	
