@@ -1,10 +1,10 @@
 function mincost(arr)
 { 
-	
+	arr.sort((a,b)=> a-b)
 	let sum=0
 	while(arr.length>1)
 		{
-			arr.sort() 
+			arr.sort((a,b)=> a-b)
 			sum+= arr[0] + arr[1]
 			arr.push(arr[0] + arr[1])
 			arr.shift();
