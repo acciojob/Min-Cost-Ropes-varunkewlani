@@ -1,8 +1,8 @@
 function mincost(arr)
 { 
-	arr=[4,3,2,6]
+	
 	let sum=0
-	while(!arr)
+	while(arr.length>1)
 		{
 			arr.sort() 
 			sum+= arr[0] + arr[1]
